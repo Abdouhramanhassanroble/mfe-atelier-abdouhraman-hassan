@@ -1,0 +1,23 @@
+# Exclure les dossiers node_modules
+node_modules/
+ 
+# Exclure les fichiers de build Webpack
+dist/
+build/
+
+# Exclure les fichiers de logs et de cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Exclure les fichiers temporaires du système
+.DS_Store
+Thumbs.db
+
+# Exclure les fichiers générés par l'éditeur
+.idea/
+.vscode/
+*.swp
+
+# Exclure les fichiers spécifiques à Git
+.git/
